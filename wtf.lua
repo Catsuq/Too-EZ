@@ -8,7 +8,7 @@ Section:NewButton("Time", "wtf", function()
         [1] = game.Players.LocalPlayer.ValoresJugador.Dinero,
         [2] = game.Players.LocalPlayer.ValoresJugador.TiempoExtra,
         [3] = 0,
-        [4] = 1000000
+        [4] = 1000000000000000
     }
     game.ReplicatedStorage.ComprarTiempo:FireServer(unpack(args))
 end)
@@ -17,7 +17,7 @@ Section:NewButton("Jumps", "wtf", function()
         [1] = game.Players.LocalPlayer.ValoresJugador.Dinero,
         [2] = 0,
         [3] = game.Players.LocalPlayer.ValoresJugador.SaltosExtra,
-        [4] = 1000000
+        [4] = 1000000000000000
     }
     game.ReplicatedStorage.ComprarSalto:FireServer(unpack(args))
 end)
@@ -26,7 +26,7 @@ Section:NewButton("Initial Score", "wtf", function()
         [1] = game.Players.LocalPlayer.ValoresJugador.Dinero,
         [2] = 0,
         [3] = game.Players.LocalPlayer.ValoresJugador.ScoreInicial,
-        [4] = 1000000
+        [4] = 1000000000000000
     }
     game.ReplicatedStorage.ComprarSalto:FireServer(unpack(args))
 end)
